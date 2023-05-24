@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "galeriaImages",
+    "slug": "galeria-de-imagenes",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/splashPersonalizado.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splashPersonalizado.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "package": "com.luky_2412.galeriadeimagenes"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5a09af10-688c-4642-b689-56b3ff5f471b"
+      }
+    },
+    "owner": "luky_2412",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5a09af10-688c-4642-b689-56b3ff5f471b"
+    }
+  }
+}
